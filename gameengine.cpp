@@ -20,30 +20,25 @@ int Gameengine::readKeyCycle()
         {
         case 'a':
         case 'A':
-            //cout << "LEFT\n";
             if (platformPos > (platform.getSize () / 2))
                 -- platformPos;
             break;
         case 'd':
         case 'D':
-            //cout << "RIGHT\n";
             if (platformPos < width - (platform.getSize() / 2))
                 ++ platformPos;
             break;
         case ' ':
         case 'w':
         case 'W':
-            //cout << "STARS\n";
             ball.run();
             break;
         case 27:
-            //cout << "ESC\n";
             break;
         default:
             break;
         }
     }
-    cout << "RETURN 0\n";
     return 0;
 }
 
