@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <thread>
-#include <chrono>
 
 #include "gameengine.h"
 #include "timerthread.h"
