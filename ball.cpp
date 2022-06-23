@@ -1,6 +1,6 @@
 #include "ball.h"
 
-// new branch commit
+// another branch commit 1
 
 std::ostream& operator<<(std::ostream& os, const Ball& p)
 {
