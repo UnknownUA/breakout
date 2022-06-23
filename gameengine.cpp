@@ -72,7 +72,7 @@ void Gameengine::draw ()
 void Gameengine::bye()
 {
     system("cls");
-    std::cout << "Bye!" << std::endl;
+    std::cout << "Bye!!!" << std::endl;
 }
 
 void Gameengine::calcNewBallRow()
